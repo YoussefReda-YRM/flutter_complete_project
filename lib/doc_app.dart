@@ -11,8 +11,8 @@ class DocApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(375, 812),
       minTextAdapt: true,
+      designSize: const Size(375, 812),
       child: MaterialApp(
         title: "Doc App",
         debugShowCheckedModeBanner: false,
